@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="VOLTERRA — Electric performance without compromise. Drive the future." />
+  <title>VOLTERRA — Drive the Future</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav-logo">VOLTERRA</a>
+    <div class="nav-links" id="navLinks">
+      <a href="models.html">Models</a>
+      <a href="technology.html">Technology</a>
+      <a href="performance.html">Performance</a>
+      <a href="charging.html">Charging</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-cta">
+      <a href="models.html#build" class="btn btn-primary">Build Yours</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <h1>Drive the Future.</h1>
+      <p class="hero-sub">Performance, technology, and design engineered for tomorrow.</p>
+      <div class="hero-ctas">
+        <a href="models.html" class="btn btn-primary">Explore Cars <i class="fas fa-arrow-right"></i></a>
+        <a href="models.html#build" class="btn btn-secondary">Build Yours</a>
+      </div>
+    </div>
+    <div class="hero-car">
+      <img src="https://images.unsplash.com/photo-1617788138017-80ad40651399?w=1200&q=80&auto=format&fit=crop" alt="Volterra S1 electric sports car" loading="eager" />
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- ===== MODELS PREVIEW ===== -->
+  <section class="section" id="models">
+    <div class="section-header">
+      <h2 class="section-title">The Lineup</h2>
+      <p class="section-sub">Four distinct expressions of electric performance. Each engineered with obsessive attention to range, speed, and design.</p>
+    </div>
+    <div class="models-grid">
+
+      <article class="model-card">
+        <div class="model-card-image" style="background: linear-gradient(135deg, #0066ff20, #8b5cf620);">
+          <span class="model-badge">Sedan</span>
+          <img src="https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=600&q=80&auto=format&fit=crop" alt="VOLTERRA S1 electric sedan" loading="lazy" />
+        </div>
+        <div class="model-card-body">
+          <h3>VOLTERRA S1</h3>
+          <div class="model-specs">
+            <div class="spec-item"><span class="spec-label">Range</span><span class="spec-value">620 km</span></div>
+            <div class="spec-item"><span class="spec-label">0–100</span><span class="spec-value">3.8 s</span></div>
+            <div class="spec-item"><span class="spec-label">Top Speed</span><span class="spec-value">220 km/h</span></div>
+            <div class="spec-item"><span class="spec-label">Drive</span><span class="spec-value">AWD</span></div>
+          </div>
+          <div class="model-price">€78,900 <span>starting</span></div>
+          <a href="models.html" class="btn btn-outline">Explore Model</a>
+        </div>
+      </article>
+
+      <article class="model-card">
+        <div class="model-card-image" style="background: linear-gradient(135deg, #00d4ff20, #0066ff20);">
+          <span class="model-badge">SUV</span>
+          <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&q=80&auto=format&fit=crop" alt="VOLTERRA X premium electric SUV" loading="lazy" />
+        </div>
+        <div class="model-card-body">
+          <h3>VOLTERRA X</h3>
+          <div class="model-specs">
+            <div class="spec-item"><span class="spec-label">Range</span><span class="spec-value">580 km</span></div>
+            <div class="spec-item"><span class="spec-label">0–100</span><span class="spec-value">4.5 s</span></div>
+            <div class="spec-item"><span class="spec-label">Top Speed</span><span class="spec-value">210 km/h</span></div>
+            <div class="spec-item"><span class="spec-label">Seats</span><span class="spec-value">7</span></div>
+          </div>
+          <div class="model-price">€89,500 <span>starting</span></div>
+          <a href="models.html" class="btn btn-outline">Explore Model</a>
+        </div>
+      </article>
+
+      <article class="model-card">
+        <div class="model-card-image" style="background: linear-gradient(135deg, #d946ef20, #ff6b3520);">
+          <span class="model-badge">Sports</span>
+          <img src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=600&q=80&auto=format&fit=crop" alt="VOLTERRA GT electric sports car" loading="lazy" />
+        </div>
+        <div class="model-card-body">
+          <h3>VOLTERRA GT</h3>
+          <div class="model-specs">
+            <div class="spec-item"><span class="spec-label">Range</span><span class="spec-value">520 km</span></div>
+            <div class="spec-item"><span class="spec-label">0–100</span><span class="spec-value">2.9 s</span></div>
+            <div class="spec-item"><span class="spec-label">Top Speed</span><span class="spec-value">260 km/h</span></div>
+            <div class="spec-item"><span class="spec-label">Power</span><span class="spec-value">780 hp</span></div>
+          </div>
+          <div class="model-price">€142,000 <span>starting</span></div>
+          <a href="models.html" class="btn btn-outline">Explore Model</a>
+        </div>
+      </article>
+
+      <article class="model-card">
+        <div class="model-card-image" style="background: linear-gradient(135deg, #8b5cf620, #0066ff20);">
+          <span class="model-badge">Coupe</span>
+          <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&q=80&auto=format&fit=crop" alt="VOLTERRA R luxury coupe" loading="lazy" />
+        </div>
+        <div class="model-card-body">
+          <h3>VOLTERRA R</h3>
+          <div class="model-specs">
+            <div class="spec-item"><span class="spec-label">Range</span><span class="spec-value">600 km</span></div>
+            <div class="spec-item"><span class="spec-label">0–100</span><span class="spec-value">3.2 s</span></div>
+            <div class="spec-item"><span class="spec-label">Top Speed</span><span class="spec-value">250 km/h</span></div>
+            <div class="spec-item"><span class="spec-label">Drive</span><span class="spec-value">AWD</span></div>
+          </div>
+          <div class="model-price">€118,000 <span>starting</span></div>
+          <a href="models.html" class="btn btn-outline">Explore Model</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== PERFORMANCE TEASER ===== -->
+  <section class="performance">
+    <div class="performance-bg"></div>
+    <div class="section">
+      <div class="section-header">
+        <h2 class="section-title">Performance, Redefined</h2>
+        <p class="section-sub">Instant torque. Silent acceleration. A driving experience that rewrites the rules.</p>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-item"><div class="stat-number">600+</div><div class="stat-label">km Range</div></div>
+        <div class="stat-item"><div class="stat-number">3.2</div><div class="stat-label">sec 0–100 km/h</div></div>
+        <div class="stat-item"><div class="stat-number">250</div><div class="stat-label">km/h Top Speed</div></div>
+        <div class="stat-item"><div class="stat-number">800V</div><div class="stat-label">Fast Charging</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>VOLTERRA</h3>
+          <p>Electric performance without compromise. Designed in Europe, engineered for the world.</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Your email address" />
+            <button>Subscribe</button>
+          </div>
+          <div class="footer-social">
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Models</h4>
+          <ul>
+            <li><a href="models.html">VOLTERRA S1</a></li>
+            <li><a href="models.html">VOLTERRA X</a></li>
+            <li><a href="models.html">VOLTERRA GT</a></li>
+            <li><a href="models.html">VOLTERRA R</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="about.html">Careers</a></li>
+            <li><a href="about.html">Press</a></li>
+            <li><a href="about.html">Investors</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Technology</h4>
+          <ul>
+            <li><a href="technology.html">Battery</a></li>
+            <li><a href="charging.html">Charging</a></li>
+            <li><a href="technology.html">Autopilot</a></li>
+            <li><a href="technology.html">Connectivity</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">FAQ</a></li>
+            <li><a href="contact.html">Service</a></li>
+            <li><a href="contact.html">Warranty</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 VOLTERRA Motors. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Settings</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
